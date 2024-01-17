@@ -1,1 +1,9 @@
 /* app global css */
+@font-face {
+    font-family: MochiyPopOne-Regular;
+    src: url(./fonts/MochiyPopOne-Regular.woff);
+  }
+  
+  .my-font {
+    font-family: 'MochiyPopOne-Regular';
+  }

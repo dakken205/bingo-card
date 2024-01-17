@@ -1,5 +1,5 @@
 <template>
-  <q-layout view="lHh Lpr lFf">
+  <q-layout view="lHh Lpr lFf" style="font-family: 'MochiyPopOne-Regular';">
     <q-header elevated>
       <q-toolbar>
 
