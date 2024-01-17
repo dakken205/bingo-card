@@ -11,7 +11,8 @@
                 <template v-for="row, irow in CardData" v-bind:key="row">
                     <div class="column">
                         <template v-for="vObj, icol in row" v-bind:key="vObj">
-                            <q-btn class="q-ma-xs border" :class="vObj.isOpen ? 'bg-grey-8 text-white' : 'bg-white'"
+                            <q-btn class="q-ma-xs border bingo-item"
+                                :class="vObj.isOpen ? 'bg-light-blue text-white' : 'bg-white'"
                                 @click="changeState(irow, icol)" flat>{{
                                     vObj.value }}</q-btn>
                         </template>
@@ -118,5 +119,11 @@ export default defineComponent({
 <style>
 .border {
     border: 1px solid #eaeaea;
+}
+
+.bingo-item {
+    width: 60px;
+    height: 60px;
+    font-size: 8px;
 }
 </style>
