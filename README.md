@@ -2,9 +2,6 @@
 
 Bingo game for new year's party
 
-## データの渡し方について
-
-
 ## Install the dependencies
 ```bash
 yarn
