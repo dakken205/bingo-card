@@ -12,10 +12,11 @@
           <div class="column">
             <template v-for="(vObj, icol) in row" v-bind:key="vObj">
               <template v-if="irow == 2 && icol == 2">
-                <!-- <q-btn
+                <q-btn
                   class="q-ma-xs border bingo-item bg-light-blue text-white"
-                  ><img src="@/assets/icon.png" alt=""
-                /></q-btn> -->
+                  ><q-avatar style="width: 40px; height: 40px"
+                    ><img src="../assets/icon.png" /></q-avatar
+                ></q-btn>
               </template>
               <template v-else>
                 <q-btn
