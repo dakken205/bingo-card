@@ -42,14 +42,14 @@
         filled
         outlined
         v-model="UserYear"
-        :rules="[(val) => val.length != 2 || '下２桁で入力してください']"
+        :rules="[(val) => val.length == 2 || '下２桁で入力してください']"
       ></q-input>
       <q-input
         type="number"
         label="学籍番号の下３桁（半角）"
         filled
         outlined
-        :rules="[(val) => val.length != 3 || '下３桁で入力してください']"
+        :rules="[(val) => val.length == 3 || '下３桁で入力してください']"
         v-model="UserNumber"
       ></q-input>
       <q-btn
